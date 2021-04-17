@@ -1,3 +1,3 @@
-# Vanilla JavaScript App
+# Cloud Computing Assignment
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+This is a repository created for Clout computing Assignment 1 for a simple web-based application form.
