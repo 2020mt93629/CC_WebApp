@@ -57,6 +57,27 @@ button {
             <button type="button" class="cancelbtn"> Cancel</button>   
             Forgot <a href="#"> password? </a>   
         </div>   
-    </form>     
+    </form> 
+  <script>
+  function loginform()
+    {  var user = document.getElementById("username").value;
+       var pwd = document.getElementById("password").value;
+     if(user =='')
+     {
+       alert("please enter username");
+     }
+     else if(pwd=='')
+     {
+       alert("enter the password");
+     }
+     else if(user=='sreevidya' && pwd=="butspilani")
+     {
+       alert("Login Successfully!!!");
+     }
+     else
+     {alert("Login failed due to incorrect username and password");
+     }
+    }
+  </script>
 </body>     
 </html>  
